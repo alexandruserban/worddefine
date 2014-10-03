@@ -18,4 +18,3 @@ module.exports.define = function (word, callback) {
         callback.call(res, err, item);
     });
 }
-n
