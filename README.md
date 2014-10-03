@@ -2,7 +2,7 @@
 ================================
 ## About ##
 
-Use this node package to get the dfinition of a word.
+Use this node package to get the definition of a word.
 
 ## Install ##
 
@@ -11,7 +11,7 @@ Use this node package to get the dfinition of a word.
 ## Use ##
 
 ```js
-var wd = requrie('worddefine');
+var wd = require('worddefine');
 
 wd.define("word_for_definition", function (err, word) {
     console.log(word.definitions);

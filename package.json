@@ -1,0 +1,34 @@
+{
+    "name": "worddefine",
+    "version": "0.0.1",
+    "description": "search word definition",
+    "author": {
+        "name": "Alexandru Şerban",
+        "email": "alexandru.v.serban@gmail.com"
+    },
+    "keywords": [
+        "word",
+        "definition",
+        "parser",
+        "json",
+        "search",
+        "english"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/alexandruserban/worddefine.git"
+    },
+    "main": "./index.js",
+    "engines": {
+        "node": ">= 0.6"
+    },
+    "bugs": {
+        "url": "https://github.com/alexandruserban/worddefine/issues"
+    },
+    "homepage": "https://github.com/alexandruserban/worddefine",
+    "_id": "worddefine-search@0.0.1",
+    "dependencies": {
+        "cheerio": "^0.17.0",
+        "request": "^1.1.0"
+    }
+}
